@@ -63,9 +63,9 @@ export const Contact = () => {
             >
               <a
                 className="underline-offset-4 hover:underline"
-                href="mailto:skolakmichal1@gmail.com"
+                href="mailto:hanaandargie00@gmail.com"
               >
-                skolakmichal1@gmail.com
+                hanaandargie00@gmail.com
               </a>
             </Button>{' '}
             or through this form.

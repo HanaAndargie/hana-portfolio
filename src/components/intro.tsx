@@ -23,7 +23,7 @@ export const Intro = () => {
           type: 'tween',
           duration: 0.2,
         }}
-        href="https://github.com/Skolaczk/next-starter"
+        href="https://github.com/HanaAndargie?tab=repositories"
         className="bg-muted rounded px-3 py-1 text-sm font-medium"
       >
         🎉
@@ -34,7 +34,8 @@ export const Intro = () => {
         animate={{ opacity: 1, y: 0 }}
         className="text-3xl font-bold leading-tight tracking-tighter sm:text-4xl"
       >
-        Front-end developer with a passion for design
+        {/* Front-end developer with a passion for design */}
+        Electrical &amp; Computer Engineer | Front-End Developer
       </motion.h1>
       <motion.p
         initial={{ opacity: 0, y: 100 }}
@@ -42,10 +43,19 @@ export const Intro = () => {
         transition={{
           delay: 0.1,
         }}
-        className="text-muted-foreground max-w-lg"
+        className="text-muted-foreground max-w-lg text-justify"
       >
-        Hello, I&apos;m Michał. I am front-end developer from Poland. I enjoy
-        building sites and apps. My focus is React (Next.js).
+        {/* Hello, I&apos;m Michał. I am front-end developer from Poland. I enjoy
+        building sites and apps. My focus is React (Next.js). */}
+        {/* Hello, I&apos;m Hana. I am xyz developer from Ethiopia. I enjoy building
+        sites and apps. My focus is React (Next.js). */}
+        I am an Electrical &amp; Computer Engineer &amp; Front-End Developer
+        passionate about advancing Human-Computer Interaction (HCI) &amp;
+        Human-Robot Interaction (HRI). My work spans cutting-edge research,
+        real-world engineering projects, &amp; impactful community leadership.
+        With experience in autonomous systems, deep learning, &amp; web
+        development, I aim to contribute to innovative &amp; meaningful
+        solutions that drive progress &amp; make a difference.
       </motion.p>
       <motion.div
         initial={{ opacity: 0, y: 100 }}
@@ -66,21 +76,26 @@ export const Intro = () => {
           className="hidden sm:flex"
           asChild
         >
-          <a href="/michalskolak.pdf" download>
+          <a href="/hanaresume.pdf" download>
             Download CV <Icons.download className="ml-2 size-4" />
           </a>
         </Button>
         <Button variant="secondary" size="icon" asChild>
           <a
-            href="https://www.linkedin.com/in/micha%C5%82-skolak-06905524b"
+            href="https://www.linkedin.com/in/hana-kassie-19b326227/"
             aria-label="Linkedin"
             download
+            target="_blank"
           >
             <Icons.linkedin className="size-6" />
           </a>
         </Button>
         <Button variant="secondary" size="icon" asChild>
-          <a href="https://github.com/Skolaczk" aria-label="Github">
+          <a
+            href="https://github.com/HanaAndargie"
+            aria-label="Github"
+            target="_blank"
+          >
             <Icons.github className="size-6" />
           </a>
         </Button>
