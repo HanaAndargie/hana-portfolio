@@ -16,6 +16,7 @@ export const Projects = ({ starsCount }: TProps) => {
 
   return (
     <section ref={ref} id="projects" className="my-10 scroll-mt-28">
+      {/* <section ref={ref} id="projects" className="my-10 scroll-mt-28 bg-red-600"> */}
       <motion.div
         initial={{ opacity: 0, y: 100 }}
         whileInView={{
@@ -34,7 +35,9 @@ export const Projects = ({ starsCount }: TProps) => {
           content="Projects I worked on. Each of them containing its own case study."
         />
       </motion.div>
-      <div className="flex flex-col gap-8 md:flex-row">
+      {/* <div className="flex flex-col gap-8 md:flex-row"> */}
+      {/* <div className="flex flex-wrap gap-6 justify-around"> */}
+      <div className="flex flex-wrap justify-around gap-8 md:flex-row">
         {projectsData.map((project, index) => (
           <Project
             key={project.title}

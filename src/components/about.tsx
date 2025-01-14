@@ -20,22 +20,30 @@ export const About = () => {
     >
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
-        <p className="mb-4">
-          I&apos;m Michał Skolak, I&apos;m a front-end developer from Poland.
-          I&apos;ve been learning programming for over 3 years. After I started
-          high school, I decided to pursue my passion for programming. My
-          favorite part of programming is the problem-solving aspect. I love the
-          feeling of finally figuring out a solution to a problem. I&apos;ve had
-          the opportunity to work on several exciting projects during my
-          learning journey, ranging from personal projects to collaborative
-          ventures. My core stack is React, Next.js, TypeScript, and Tailwind
-          CSS. I am also familiar with Nest.js and Prisma. I am always looking
-          to learn new technologies.
+        <p className="mb-4 text-justify">
+          I&amp;m Hana A. Kassie, an Electrical &amp; Computer Engineer and
+          front-end developer from Ethiopia. My passion for technology began
+          early, and over the past three years, I&apos;ve focused on blending my
+          engineering expertise with my love for creating user-focused
+          applications. I thrive on solving complex problems, whether it&apos;s
+          designing intuitive interfaces or exploring advanced computing
+          concepts. As an engineer, I&apos;ve worked on projects involving
+          autonomous systems, deep learning, and human-computer interaction,
+          applying cutting-edge technologies to real-world challenges. On the
+          front-end, I specialize in React, Next.js, TypeScript, and Tailwind
+          CSS, building dynamic, responsive applications, and have experience
+          with back-end technologies like Nest.js and Prisma for full-stack
+          development. What excites me most is the intersection of engineering
+          and software development—leveraging technical knowledge to create
+          innovative, scalable solutions, whether optimizing algorithms for
+          robots or designing seamless web applications.
         </p>
         <p>
-          I&apos;m open to Job opportunities where I can contribute, learn and
-          grow. If you have a good opportunity that matches my skills and
-          experience then don&apos;t hesitate to contact me.
+          I&apos;m open to opportunities where I can bring my diverse skills to
+          the table, contribute to impactful projects, and continue to grow as a
+          professional. If you&apos;re looking for someone who&apos;s passionate
+          about blending engineering and front-end development, I&apos;d love to
+          hear from you!
         </p>
       </div>
       <Skills />
