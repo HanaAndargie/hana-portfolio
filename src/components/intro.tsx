@@ -1,6 +1,7 @@
 'use client';
 
 import { motion } from 'framer-motion';
+import Image from 'next/image';
 import Link from 'next/link';
 
 import { Button } from '@/components/button';
@@ -14,8 +15,22 @@ export const Intro = () => {
     <section
       ref={ref}
       id="home"
-      className="my-10 flex scroll-mt-96 flex-col items-center gap-4 text-center sm:mt-20"
+      // className="my-10 flex scroll-mt-96 flex-col items-center gap-4 text-center sm:mt-150"
+      className=" sm:mt-150 flex scroll-mt-96 flex-col items-center gap-4 text-center"
     >
+      {/* <Image alt="hana" src="/img/hana.png" width={160} height={160} /> */}
+      <motion.div
+        initial={{ opacity: 0, scale: 0.5 }}
+        animate={{ opacity: 1, scale: 1 }}
+        transition={{
+          type: 'spring',
+          stiffness: 100,
+          damping: 15,
+          duration: 0.6,
+        }}
+      >
+        <Image alt="hana" src="/img/hana.png" width={160} height={160} />
+      </motion.div>
       <motion.a
         initial={{ opacity: 0, scale: 0 }}
         animate={{ opacity: 1, scale: 1 }}
