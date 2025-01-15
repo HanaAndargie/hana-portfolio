@@ -134,7 +134,4 @@ export const skillsData = [
   { icon: <Icons.react className="size-12" /> },
   { icon: <Icons.redux className="size-12" /> },
   { icon: <Icons.nextjs className="size-12" /> },
-  { icon: <Icons.nestjs className="size-12" /> },
-  { icon: <Icons.prisma className="size-12" /> },
-  { icon: <Icons.docker className="size-12" /> },
 ] as const;

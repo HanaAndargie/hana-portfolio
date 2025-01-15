@@ -21,7 +21,7 @@ export const About = () => {
       <SectionHeading heading="About Me" />
       <div className="-mt-5 max-w-2xl text-center leading-7">
         <p className="mb-4 text-justify">
-          I&amp;m Hana A. Kassie, an Electrical &amp; Computer Engineer and
+          I&apos;m Hana A. Kassie, an Electrical &amp; Computer Engineer and
           front-end developer from Ethiopia. My passion for technology began
           early, and over the past three years, I&apos;ve focused on blending my
           engineering expertise with my love for creating user-focused
