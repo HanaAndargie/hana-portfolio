@@ -28,8 +28,10 @@ export const Intro = () => {
           damping: 15,
           duration: 0.6,
         }}
+        className="flex flex-wrap gap-2"
       >
-        <Image alt="hana" src="/img/hana.png" width={160} height={160} />
+        {/* <Image alt="hana" src="/img/hana.png" width={160} height={160} /> */}
+        <Image alt="hana" src="/img/hana-one.png" width={270} height={270} />
       </motion.div>
       <motion.a
         initial={{ opacity: 0, scale: 0 }}
