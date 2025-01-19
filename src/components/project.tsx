@@ -44,7 +44,13 @@ export const Project = ({ project, index, starsCount }: TProps) => {
       className="bg-secondary flex flex-col items-center rounded p-5 text-center md:w-1/3"
     >
       <div className="bg-muted w-fit rounded-full p-4">
-        <Image src={image} alt={`${title} image`} width={32} height={32} />
+        <Image
+          src={image}
+          alt={`${title} image`}
+          width={32}
+          height={32}
+          priority
+        />
       </div>
       <h3 className="my-2 text-lg font-medium">{title}</h3>
       <p className="text-muted-foreground">{description}</p>

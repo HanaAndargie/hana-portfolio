@@ -18,7 +18,6 @@ export const Intro = () => {
       // className="my-10 flex scroll-mt-96 flex-col items-center gap-4 text-center sm:mt-150"
       className=" sm:mt-150 flex scroll-mt-96 flex-col items-center gap-4 text-center"
     >
-      {/* <Image alt="hana" src="/img/hana.png" width={160} height={160} /> */}
       <motion.div
         initial={{ opacity: 0, scale: 0.5 }}
         animate={{ opacity: 1, scale: 1 }}
@@ -30,8 +29,14 @@ export const Intro = () => {
         }}
         className="flex flex-wrap gap-2"
       >
-        {/* <Image alt="hana" src="/img/hana.png" width={160} height={160} /> */}
-        <Image alt="hana" src="/img/hana-one.png" width={270} height={270} />
+        <Image
+          alt="hana"
+          src="/img/hana-one3.png"
+          width={270}
+          height={270}
+          priority
+          style={{ width: '100%', height: 'auto' }}
+        />
       </motion.div>
       <motion.a
         initial={{ opacity: 0, scale: 0 }}
